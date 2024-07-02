@@ -82,7 +82,7 @@ footer {
     flex-direction: column;
     width: 100%;
     margin: 20px 20px 20px 20px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 form label, form input {
@@ -92,4 +92,9 @@ form label, form input {
 }
 h2{
     text-align: left;
+}
+@media (max-width: 768px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
 }

@@ -89,3 +89,8 @@ footer {
     padding: 10px;
     font-size: small;
 }
+@media (max-width: 768px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
